@@ -74,5 +74,6 @@ def main():
     print("\n Distribuição de Velocidades de Maxwell-Boltzmann FINALIZADA! \n")
     print("-" * 100)
 
+
 if __name__ == "__main__":
     main()
