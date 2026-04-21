@@ -41,7 +41,7 @@ def main():
             print("-" * 100)
             data = np.column_stack((vectorX, vectorY))
             header_text = (
-                "Descripiton: Distribuicao da Velocidades de Maxwell-Boltzmann\n"
+                "Description: Distribuicao da Velocidades de Maxwell-Boltzmann\n"
                 "Author: Victor Moreira Acacio \n"
                 "\n"
                 "Equation: 4 * pi * (M / (2 * pi * R * T))^(3/2) * v^2 * exp(-M * v^2 / (2 * R * T))\n"
@@ -66,12 +66,12 @@ def main():
             print("\n Arquivo 'dados.txt' gerado com sucesso! \n")
             print("-" * 100)
             print(
-                "\n Salvando os dados caracterrísticos da distribuição de velocidades... \n"
+                "\n Salvando os dados característicos da distribuição de velocidades... \n"
             )
             print("-" * 100)
             data_car = np.column_stack((vector_car, (0, 0, 0)))
             header_text = (
-                "Descripiton: Velocidades Caracteristicas da Distribuicao da Velocidades de Maxwell-Boltzmann\n"
+                "Description: Velocidades Caracteristicas da Distribuicao da Velocidades de Maxwell-Boltzmann\n"
                 "Author: Victor Moreira Acacio \n"
                 "\n"
                 "Equations: v_mp = ((2 * R * T) / (M)) ** (1 / 2)\n     v_med = ((8 * R * T) / (pi * M)) ** (1 / 2)\n     v_rms = ((3 * R * T) / (M)) ** (1 / 2)\n"
