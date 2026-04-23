@@ -1,4 +1,4 @@
-# Maxwell-Boltzmann Velocity Distribution
+# MBDistribution
 
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
 ![R Version](https://img.shields.io/badge/R-4.0%2B-blue)
